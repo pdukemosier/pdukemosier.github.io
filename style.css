@@ -11,9 +11,10 @@ html {
     font-family: 'Fira Sans', Helvetica, sans-serif;
   }
   body header {
+    height:100vh;
     padding: 50px;
-    font-size: 60px;
-    font-weight: bold;
+    font-size:x-large;
+    font-weight: 800;
     font-family: 'Playfair Display', Times, serif;
     font-style: italic;
     color: #157e88;
@@ -23,6 +24,9 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  body header h1 {
+      margin-top:30vh;
   }
   body header p {
     font-family: 'Fira Sans', 'Helvetica', sans-serif;
