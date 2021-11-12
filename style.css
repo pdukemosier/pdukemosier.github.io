@@ -46,7 +46,6 @@ html {
     box-sizing: border-box;
     padding: 20px;
     background: #fff;
-    overflow:auto;
   }
   body nav ul li {
     list-style: none;
