@@ -31,7 +31,9 @@ header h1{
 }
 /* Now let's create two columns for the main content */
 main {
+    max-width: 100vw;
     text-align: center;
+
 
 }
 
