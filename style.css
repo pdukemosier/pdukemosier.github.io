@@ -9,6 +9,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fira Sans', Helvetica, sans-serif;
+    background-color: #f2f2f2;
   }
   body header {
     height:100vh;
@@ -45,7 +46,7 @@ html {
     justify-content: flex-end;
     box-sizing: border-box;
     padding: 20px;
-    background: #fff;
+    background: #f2f2f2;
   }
   body nav ul li {
     list-style: none;
@@ -108,6 +109,13 @@ html {
     flex:50%;
     padding:2vh;
   }
+  figcaption {
+      font-family: 'Playfair Display', Times, serif;
+      font-weight:100;
+      font-size: small;
+      margin-top:0em;
+      padding:0;
+  }
   p#spidertext {
     width:70%;
   }
@@ -116,4 +124,8 @@ html {
     align-items:center;
     justify-content: center;
     text-align:center;
+    font-family: 'Playfair Display', Times, serif;
+    font-weight:100;
+    font-size:small;
+    color:#163077d7;
   }
