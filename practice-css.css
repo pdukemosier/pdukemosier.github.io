@@ -1,0 +1,55 @@
+/*In the body tag, we set styles for the whole web page. Usually we use this space for setting the base fonts, background colors,  */
+body {
+    font: 1em/150% Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 33em;
+
+}
+
+/* this wrapper let's us move the content away from the edges of the browser. */
+#wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+
+}
+
+/* Let's style the header */
+header {
+
+}
+
+header nav li{
+    flex: 1;
+    text-align: center;
+}
+
+
+header h1{
+    font-variant:small-caps;
+
+}
+/* Now let's create two columns for the main content */
+main {
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 57, 37)
+}
+
+p {
+    color: rgb(38, 114, 87)
+}
+article {
+
+}
+
+article img {
+    width: 100%;
+}
+
+aside {
+}

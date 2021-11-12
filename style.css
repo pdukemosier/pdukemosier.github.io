@@ -1,0 +1,116 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', Helvetica, sans-serif;
+  }
+  body header {
+    padding: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Playfair Display', Times, serif;
+    font-style: italic;
+    color: #157e88;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    background-image: url("banner3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  body header p {
+    font-family: 'Fira Sans', 'Helvetica', sans-serif;
+    font-weight:400;
+    font-size: 30px;
+    font-style:normal;
+    text-align: center; 
+  }
+  body nav {
+    position: sticky;
+    top: 0;
+  }
+  body nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+    overflow:auto;
+  }
+  body nav ul li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+  }
+  body nav ul li a {
+    text-decoration: none;
+    color: #0b8a1b;
+    font-weight:550;
+  }
+  body section {
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10vh;
+  }
+  body section#home {
+    height:100vh;
+  }
+  img {
+    width:80vh;
+    margin:5vh;
+    margin-bottom:0.5em;
+  }
+  body section p {
+    width:85vh;
+    margin:5vh;
+    font-weight:500;
+    font-family: 'Fira Sans', Helvetica, sans-serif;
+    text-align: justify;
+  }
+  body section#home p {
+    text-align: center;
+  }
+  body section#spiders img {
+    width:35vh;
+  }
+  body section#zacqui img {
+    width:65vh;
+  }
+  body section#zacqui img#heathers {
+    width:50vh;
+  }
+  h2 {
+    margin:3vh;
+    font-family:'Playfair Display', Times, serif;
+    color:#163077d7;
+    margin-bottom:0;
+  }
+  .imagerow {
+    display:flex;
+  }
+  .column {
+    flex:50%;
+    padding:2vh;
+  }
+  p#spidertext {
+    width:70%;
+  }
+  footer {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+  }
