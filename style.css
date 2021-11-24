@@ -78,13 +78,13 @@ body section#home {
   height:100vh;
 }
 img {
-  width:80vh;
-  margin:5vh;
+  width:50vw;
+  margin:10px;
   margin-bottom:0.5em;
 }
 body section p {
-  width:85vh;
-  margin:5vh;
+  width:50vw;
+  margin:5px;
   font-weight:500;
   font-family: 'Fira Sans', Helvetica, sans-serif;
   text-align: justify;
@@ -93,10 +93,10 @@ body section#home p {
   text-align: center;
 }
 body section#spiders img {
-  max-width:40vh;
+  max-width:25vw;
 }
 body section#zacqui img {
-  width:65vh;
+  max-width:30vw;
 }
 h2 {
   margin:3vh;
